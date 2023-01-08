@@ -74,5 +74,5 @@ if __name__ == '__main__':
     paths = get_paths(args.input.readlines())
     for i in range(len(paths)):
         args.scores.write(str(calculate_levenstein_distance((paths[i]))))
-        args.scores.write("/n")
+        args.scores.write("\n")
         
